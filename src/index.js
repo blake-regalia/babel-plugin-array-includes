@@ -1,5 +1,5 @@
-export default function ({ Plugin, types: t }) {
-  return new Plugin("array-includes", {
+export default function ({types: t }) {
+  return {
     metadata: {
       group: "builtin-post"
     },
@@ -18,5 +18,5 @@ export default function ({ Plugin, types: t }) {
         }
       }
     }
-  });
+  };
 }
